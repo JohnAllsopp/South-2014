@@ -355,3 +355,55 @@ font-size: .8em; }
 table .eligible {
 font-size: .8em;
 margin-bottom: .1em }
+
+/*pricing*/
+
+#pricing {
+padding: 2em 10%
+}
+
+#pricing h2 {
+}
+
+
+
+
+#pricing table {
+width: 100%;
+margin: 2em auto;
+background-color: rgb(0, 158, 218);
+color: #fff; }
+
+#pricing table tr:first-child td, #pricing table tr td:first-child{
+background-color: rgb(0, 103, 141);
+color: rgb(255, 57, 0)
+}
+
+
+#pricing table tr {
+height: 2.6em
+}
+
+
+
+#pricing table td {
+border-bottom: solid rgba(255, 255, 255, .1) 1px;
+text-align: center; 
+vertical-align: middle;
+padding: .2em;
+width: 18.7%
+}
+
+#pricing table td:first-child {
+width: 25%;
+text-align: right;
+font-weight: 400; 
+padding-right: .6em}
+
+#pricing table .included {
+background-color: rgb(0, 158, 218);
+}
+
+#pricing table .not-included {
+background-color: rgb(85, 200, 237);
+}
