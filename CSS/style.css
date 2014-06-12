@@ -407,3 +407,35 @@ background-color: rgb(0, 158, 218);
 #pricing table .not-included {
 background-color: rgb(85, 200, 237);
 }
+
+/*venue*/
+
+#venue {
+position: relative;
+z-index: -1}
+
+#venue img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 0}
+
+#venue section.venue-details {
+	position: relative;
+	z-index: 1;
+	width: 35%;
+	left: 60%;
+background-color: rgb(255, 57, 0);
+padding: 1em 5% 1em 1em;
+margin-bottom: 50%;
+font-size: 1em;
+}
+
+#venue section.venue-details h2{
+font-size: 1.2em;
+text-transform: uppercase }
+
+#venue section.venue-details p{
+line-height: 1.2;
+margin: 1em 0 }
