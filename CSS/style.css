@@ -160,12 +160,17 @@ background-color: rgb(255, 180, 0);
 color: #fff;
 overflow: auto;
 padding: 2em 0;
-font-size: .9em}
+font-size: 1em}
 
 #reasons, #who {
-width: 40%;
+width: 55%;
 float: left;
 margin: 0 5%}
+
+#who {
+width: 30%;
+float: left;
+margin: 0 5% 0 0 }
 
 #who ul {
 width: 49%;
@@ -244,7 +249,7 @@ font-family: museo;
 position: absolute;
 top: 1em;
 left: 0%;
-width: 100%;
+width: 90%;
 padding-left: 10%;
 color: rgb(255, 180, 0);
 font-size: 2.4em;
@@ -304,6 +309,17 @@ width: 50%;}
 .speaker-hero.wide {
 width: 40%;
 }
+
+.speaker-more {opacity: 1;
+display: none;
+position: fixed;
+top: 20%;
+left: 10%;
+height: 60%;
+width: 80%;
+background: #000;
+border: solid medium #fff;
+z-index: 10}
 
 /*schedule*/
 
