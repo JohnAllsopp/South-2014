@@ -7,7 +7,9 @@ var helpers = {
 			speakerHeroElements[i].addEventListener("click", helpers.showSpeakerInfo, false)
 		};
 		
-		lightBox.addEventListener('click', helpers.hideSpeakerInfo, false)
+		lightBox.addEventListener('click', helpers.hideSpeakerInfo, false);
+		
+		var styleSheets = document.styleSheets
 		
 	},
 	
