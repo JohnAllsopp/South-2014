@@ -365,7 +365,15 @@ z-index: 11}
 width: 44%;
 color: rgb(255, 180, 0);
 float: left;
-margin-right: 5%}
+margin-right: 5%;
+max-height: 50%;
+overflow: auto}
+
+.speaker-more .abstract li, .speaker-more .bio li {
+	line-height: 1.15;
+	padding-left: .6em;
+margin-bottom: .3em
+}
 
 
 .speaker-more p {
