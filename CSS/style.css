@@ -177,9 +177,9 @@ padding: 2em 0;
 font-size: 1.07em}
 
 #reasons, #who {
-width: 55%;
+width: 50%;
 float: left;
-margin: 0 5%}
+margin: 0 4% 0 5%} 
 
 #who {
 width: 30%;
@@ -187,8 +187,18 @@ float: left;
 margin: 0 5% 0 0 }
 
 #who ul {
-width: 49%;
+}
+
+#product-team, #engineering-team {
+width: 46%;
 float: left}
+
+#product-team {
+margin-right: 4%}
+
+#product-team h3, #engineering-team h3{
+font-size: 1.1em;
+margin-bottom: .4em }
 
 
 .text-heavy h2 {
@@ -524,7 +534,10 @@ margin-right: 0;
 line-height: 1.1}
 
 #pricing #promise ul {
-padding-left: .3em}
+padding-left: .5em}
+
+#pricing #promise p {
+margin-top: .5em}
 
 /*venue*/
 
@@ -581,10 +594,13 @@ top: 0;
 left: 0;
 opacity: 0;
 /*display: none;*/
-transition: opacity .3s;
-transition-delay: .1s;
+transition: opacity .3s, z-index .3s;
+transition-delay: 0, .3s;
 z-index: -1}
 
 #lightbox.visible {/*display: block;*/
 opacity: .5;
-z-index: 10}
+z-index: 10;
+transition: opacity .3s, z-index .3s;
+transition-delay: 0;
+}
