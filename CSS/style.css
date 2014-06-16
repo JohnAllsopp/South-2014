@@ -300,6 +300,7 @@ bottom: 0;
 width: 100%;
 background-color: rgba(0, 0, 0, .6);
 padding: .5em 0;
+
 }
 
  .speaker-details h4 {
@@ -337,10 +338,10 @@ width: 40%;
 .speaker-more {opacity: 0;
 /*display: none;
 */position: fixed;
-top: 10%;
-left: 13%;
-max-height: 80%;
-width: 70%;
+top: 5%;
+left: 5%;
+max-height: 90%;
+width: 86%;
 padding: 2%;
 background: #000;
 border: solid medium #fff;
