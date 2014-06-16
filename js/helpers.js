@@ -2,11 +2,16 @@ var helpers = {
 	
 	init: function(){
 		var speakerHeroElements = document.querySelectorAll(".speaker-hero")
-		var lightBox = document.querySelector("#lightbox")
 		for (var i=0; i < speakerHeroElements.length; i++) {
 			speakerHeroElements[i].addEventListener("click", helpers.showSpeakerInfo, false)
 		};
-		
+
+		var closeElements = document.querySelectorAll(".speaker-close")
+		for (var i=0; i < closeElements.length; i++) {
+			closeElements[i].addEventListener("click", helpers.hideSpeakerInfo, false)
+		};
+
+		var lightBox = document.querySelector("#lightbox")		
 		lightBox.addEventListener('click', helpers.hideSpeakerInfo, false);
 		
 		var styleSheets = document.styleSheets
@@ -26,7 +31,11 @@ var helpers = {
 		}
 	},
 	
-	hideSpeakerInfo: function(){
+	hideSpeakerInfo: function(event){
+		if(event) {
+			event.stopPropagation()	
+		}
+		
 		var visibleSpeakerElements = document.querySelectorAll(".speaker-more.visible")
 		
 		for (var i=0; i < visibleSpeakerElements.length; i++) {

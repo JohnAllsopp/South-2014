@@ -276,7 +276,7 @@ left: 0%;
 width: 90%;
 padding-left: 10%;
 color: rgb(255, 180, 0);
-font-size: 2.4em;
+font-size: 3.6vw;
 font-style: italic;
 max-width: 90%;
 height: auto}
@@ -300,7 +300,6 @@ bottom: 0;
 width: 100%;
 background-color: rgba(0, 0, 0, .6);
 padding: .5em 0;
-
 }
 
  .speaker-details h4 {
@@ -321,6 +320,24 @@ position: relative;
 width: 20%;
 }
 
+.speaker-hero {
+cursor: pointer
+}
+
+.speaker-hero:after {content: "+";
+position: absolute;
+top: 0;
+right: 0;
+width: 18px;
+height: 18px;
+text-align: center; 
+line-height: 16px;
+font-size: 18px;
+font-weight: 100;
+font-family: helvetica;
+color: white;
+opacity: .6; }
+
 .row > .speaker-hero .speaker-details {
 bottom: 5px}
 
@@ -335,6 +352,19 @@ width: 50%;}
 width: 40%;
 }
 
+.row .speaker-group {width: 40%}
+
+.speaker-group .speaker-hero.wide {
+width: 100%;
+position: relative
+}
+
+.speaker-group .speaker-hero {
+width: 50%;
+position: relative;
+float: left
+}
+
 .speaker-more {opacity: 0;
 /*display: none;
 */position: fixed;
@@ -347,7 +377,14 @@ background: #000;
 border: solid medium #fff;
 transition: opacity .3s;
 z-index: -1;
-}
+color: #ffffff; }
+
+.speaker-close {
+position: absolute;
+top: .5em;
+right: .6em;
+font-size: 2.4em;
+cursor: pointer }
 
 .speaker-more.visible {
 /*display: block;*/

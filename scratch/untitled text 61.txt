@@ -1,0 +1,150 @@
+Matt Webb
+
+Keynote
+
+Matt Webb is co-founder of Berg, design studio turned Internet of Things tech startup. Berg provides cloud services for connected products, and created Little Printer, the cute web-connected printer, nominated for Designs of the Year in 2013. Matt is co-author of Mind Hacks and lives in London.
+
+genmon
+
+http://berglondon.com/
+
+At dropbox
+
+Interconnected
+
+Berg has been developing products and inventing the future since 2005. As a design consultancy, they built videophones with Google, had work in the New York Museum of Modern Art, and created Little Printer, the cute web-connected printer for the home. Now a tech startup, they are building a platform for connected products, and have used it to make everything from cuckoo clocks to washing machines. Join Berg co-founder Matt Webb for a dive into design, interconnectedness, and the Internet of Things.
+Tobias Revell
+
+Keynote
+
+Tobias Revell is a critical designer and futurist whose work primarily concerns fields of technopolitics and networked society. He exhibits his projects and films and talks internationally as well as teaching design with the Royal College of Art's Design Interactions program and the London College of Communication's Interaction and Moving Image course. He's also a senior associate at futures-facing design studio Superflux. His latest work - The Monopoly of Legitimate Use - looks at near-future technical, political and legal exploits for individuals looking to migrate the network.
+
+tobias_revell
+
+http://www.tobiasrevell.com/
+
+
+
+Designed Conflict Territories 2
+
+The ongoing project of he state's need to make the world legible resulted in dragnet surveillance and the ongoing legally-framed landgrab of network colonialism. The network has become a vast, dark territory reflecting our own but at an abstract angle. Power is brief and fickle and flashes and bubbles as we learn to understand and love the monster we created and those who inhabit it. What potential for the future of this network is there and what are the pitfalls of our romance?
+
+Dan Hon
+
+Keynote
+
+"Dan Hon is a former creative director from the independent advertising agency Wieden+Kennedy, based in Portland, Oregon. He's worked as an interactive creative director on Nike, Kraft, Sony and Coca-Cola and most recently as a creative director on Facebook, bringing to life their first brand campaign. 
+
+A recovered lawyer, he helped Mind Candy build their first product, Perplex City, and co-founded Six to Start, an award-winning entertainment production company in 2007. 
+
+He has been blogging for a very long time and now writes a popular email newsletter. He doesn’t play World of Warcraft anymore."
+
+hondanhon
+
+http://danhon.com/
+
+At dropbox
+
+An Internet for humans, too
+
+"40 years of Moore’s law has meant that computing and communications power everywhere has gotten cheaper, smaller and faster. It’s not new news to say that soon everything will have an IP address. And yet.
+
+All this excitement of an internet of things coming about is against the background of a shift in the world, a change in the way that Silicon Valley and the rest of the world is building the new products that are changing our lives, in the way established businesses are operating, and in the way that governments are deciding to interact with us. 
+
+Some of these organizations are learning the hard way, whereas others are making decisive moves. But all of this points to an inescapable fact: in the internet of things, humans are things too. And there’s a gap in empathy between these organisations and us, as audiences, citizens, consumers and people. 
+
+Designing an internet of things that’s for humans means understanding what the empathy gap is. It’s the gap in understanding between an organization and its audience.
+
+This session is the story of how, whilst a more connected world means more things, we should remember to design those things, products and services to understand us."
+
+Jonny Mack
+
+Product
+
+"Jonny Mack is a Seattle-based designer currently working on the Android operating system at Google. In addition to his work on Android he lead the product design for Google's Cloud Platform, co-founded Shove; a hosted push service based on the HTML5 WebSocket API, and was the interaction design lead for Hewlett-Packard’s iOS and Android mobile printing applications.
+
+Prior to his work in interaction design, Jonny apprenticed for Shepard Fairey at Blk/Mrkt in San Diego and Studio Number One in Los Angeles, before embarking on a freelance career in graphic design and front-end web development. Some of his clients include TBWA\Media Arts Lab (Apple), MTV Networks, and Capitol Records."
+
+jnymck
+
+http://jnymck.com/
+
+At dropbox
+
+Building trust
+
+Great work is rarely the result of a single person. It often takes the combined efforts of many to create great products and services. At the heart of these efforts is trust. Trust is the unifying force that facilitates execution at speed. It is the glue that binds a team together, and is critical to maximizing efficiency and impact amongst your peers. Learn how to create trust in yourself, amongst your team members, and with your users.
+Jonathon Colman
+
+Product
+
+For nearly 20 years, Jonathon Colman has helped people build, find, and use the best stuff on the Web. As a member of the Content Strategy team at Facebook, he helps make Facebook better, easier to use, and more delightful for over 1 billion people around the world... including people just like you. Previously, Jonathon led a team to win two Webby Awards at The Nature Conservancy, pioneered agile marketing at REI, and served as a Peace Corps Volunteer in West Africa.
+
+jcolman
+
+http://www.jonathoncolman.org/
+
+At dropbox
+
+Building better products with content strategy
+
+"Web sites, blogs, and social presences often aren't enough to keep your audience engaged. We've entered the age of apps, where content is a product in and of itself. But how do you take the next step to build useful products with great content? This is a job for content strategy.
+
+Key Takeaways:
+- think beyond your web site to build content-first products and apps
+- learn about tools and techniques for integrating content strategy at every stage of the product design process
+- see and review examples of content products developed at Facebook"
+Younghee Jung
+
+Product
+
+"Younghee Jung is currently leading Nokia’s corporate research team, focusing on enablers of social development through mobile technology
+
+Younghee Jung is an explorer of culture and wisdom of everyday living, with a particular interest in reflecting her learnings on how manmade objects or systems influence behaviours and human interactions. Previously a nomadic worker in Seoul, Pittsburgh, New York, Redwood City, Helsinki, Tokyo, London, and Bangalore, she is trying out a temporary settlement in London since 2013. An interaction designer by education, her work has largely centred on developing insights, prototypes, and exploratory concept sketches. She enjoys finding new ways of understanding and learning from people, beyond the conventional methodologies taught in textbooks. Her latest job title is head dreamer for Nokia’s product marketing team, to provide ideas, inspiration and strategy for new mobile products tailored for developing markets."
+
+jabberer
+
+http://younghee.com/
+
+At dropbox
+
+Open for open questions
+
+Many design and usability research methods cater for delving into a focused topic: You set a goal, establish hypotheses, gather data and gain insight to help create the proof, story, a view point, strategy, or whatever you are looking for – within the given budget and time. However, there can be situations where your research may focus too much on individual ‘trees’ that it cannot provide much information about the ‘forest’. For instance, what if you have perfect usability test data to prove the effectiveness of your design, but your client may be more interested to know what types of people would buy the product (and get disappointed to hear that you don’t know)? What if your polite research participants never want to talk with you about negative things about your design? This talk will share a few anecdotes exemplifying the importance of factoring in the space when exploring broader viewpoints to the user research questions, through informal social encounters, serendipitous interactions, and activities that are designed for cross-examining their results.
+Scott Thomas
+
+Product
+
+Scott Thomas, a.k.a SimpleScott, is a designer, technologist and founder of the Noun Project, a platform devoted to creating the world's visual language. Before creating a resource for universal communication, Scott collaborated on a wide array of projects for various brands, organizations, and agencies around the globe, including Obama for America, the White House, Fast Company, Apple, IBM, HP, Nike, Patagonia, Levis, the Alliance for Climate Protection, and Craigslist. His work has been featured in Wired, Print Magazine, The Atlantic, and The New York Times. In his free time, Scott strokes his beard and stares off into the distance, deep in thought about how to improve the world through design and technology.
+
+simplescott
+
+http://www.simplescott.com/
+
+At dropbox
+
+Building the World's Visual Language
+
+Our world is moving from a text to visual-based medium and is also becoming global, transcending languages. Hear why the web needs a global visual language that everyone can understand.
+Jessica Hische
+
+Product
+
+Jessica Hische is a letterer and illustrator best known for her personal projects Daily Drop Cap and the Should I Work for Free? flowchart as well as her work for clients like Wes Anderson, Penguin Books, and Google. She’s been named one of Print Magazine’s New Visual Artists, an ADC Young Gun, and one of Forbes 30 under 30 in Art and Design two years in a row. She is currently serving on the Type Directors Club board of directors, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation.
+
+jessicahische
+
+http://jessicahische.is/thinkingthoughts
+
+At dropbox
+
+My Illustrious Ascent Toward “Less Exciting” Work
+
+Designers try desperately to make work that’s impactful—to create work that will leave people breathless and hungry for more. Young designers in particular are endlessly trying to impress, their designs scream “DESIGN!”, their type choices are bold, their color palettes are disruptive. Many designers carry this momentum throughout there careers, but there are a few that begin to see differently. Instead of focusing on the flash, they hone in on the details, noticing things that others can barely perceive. Does this make their work better? Does it make it boring? Jessica will guide you through her own work and show you what happens when the small and imperceptible becomes even more exciting than the big bright and flashy.
+
+
+Tom Armitage	Product	Tom Armitage is a freelance technologist, designer and writer living and working in London.He makes systems, tools, toys, and art out of hardware, software, and the network. Tom has worked on everything from a large-scale website to aggregate and visualise UK schools data to giant, multi-part games that span a Parisian art gallery; from bridges that talk on Twitter and cities that speak over SMS to laser-cut sculptures of actors’ movement. He has spoken at conferences around the world (including ETech, Reboot, LIFT, Webdagene, Develop and Solid) on design, technology, and games.	tom_armitage	http://infovore.org/	At dropbox	What Things Are	"If we're going to talk about an Internet of Things, we should probably talk about what we mean when we say ""thing"".
+
+So often, when we talk about the &quot;internet of things&quot; it brings to mind images of consumer white goods with an Ethernet sockets or Wifi antennas. Thermostats; weighing scales; the apocryphal Internet Fridge. But that's a narrow way of thinking that's perhaps unhelpful: whatever you may think of the term, an ""Internet of Things"" should embrace the diversity of Thingness.
+
+So what happens when you think about the diversity of things that might be on the internet, and how they might behave? What about Things that people don't necessarily own, but borrow, share, or inhabit? Through projects that connected bikes, bridges, and a whole city to the network, let's think about What Things Are - and what they might be.														
