@@ -45,7 +45,7 @@ table {
 /*content*/
 
 body {
-font-family: museo; 
+font-family: "museo-slab", museo, serif; 
 -webkit-font-smoothing: subpixel-antialiased;
 /*-webkit-transform: translate3d( 0, 0, 0)*/
 }
@@ -59,11 +59,13 @@ header nav  ul{
 background-color: #000;}
 
 header nav li {display: inline-block;
-color: red;
-font-family: museo;
 text-transform: uppercase;
 font-size: 1.7em;
 padding: .4em .5em}
+
+header nav a:link, header nav a:visited {
+text-decoration: none;
+color: #f72117  }
 
 header nav li:last-child {position: absolute;
 right: 0;
@@ -73,6 +75,10 @@ text-align: center;
 color: black;
 background-color: red;
 padding: .4em 0}
+
+header nav li:last-child a:link, header nav li:last-child a:visited {
+color: #000
+}
 
 /*banner*/
 
@@ -139,7 +145,6 @@ width: 90%
 
 .banner-text {
 color: #fff;
-font-family: museo;
 position: absolute;
 top: 0 }
 
@@ -269,7 +274,6 @@ font-size: 1.4em; }
 
 .track-group h3 {
 color: #fff;
-font-family: museo;
 position: absolute;
 top: 1em;
 left: 0%;
