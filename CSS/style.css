@@ -132,6 +132,54 @@ width: 100%;
 #event-hero {
 background-color: rgb(255, 180, 0); }
 
+#event-hero #wd-logo {
+width: 50%
+}
+
+#event-hero #wd-logo h1 {
+float: left;
+font-size: 2vw;
+background-image: url('../images/arrowleft.svg');
+background-repeat: no-repeat;
+background-position: left center;
+background-size: 5.4em;
+padding: 4em 0 4em 4.9em;
+color: #000;
+margin: -1.2em 0 0 1em;
+width: 30%}
+
+
+
+#event-hero h1 span:first-of-type {
+text-transform: uppercase;
+font-weight: 300;
+font-size: .7em;
+line-height: .9; }
+
+#event-hero h1 span {
+text-transform: uppercase;
+font-weight: 900;
+display: block;
+line-height: .8;
+}
+
+#event-hero p, #event-hero h2 {
+	width: 50%;
+float: right;
+font-style: italic;
+color: #000; }
+
+ #event-hero h2,  #event-hero p {
+font-size: 1.4vw;
+ }
+
+#event-hero p {
+margin-top: 5em
+}
+
+#event-hero img {width: 40%;
+float: left}
+
 #event-usps {
 background-color: #f72117; }
 
