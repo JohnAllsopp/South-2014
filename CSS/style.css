@@ -87,7 +87,8 @@ background-color: black}
 
 .row {width: 100%;
 display: block;
-overflow: hidden}
+overflow: hidden;
+margin-bottom: -.3em}
 
 .row > * {
 	display: inline-block;
@@ -344,7 +345,8 @@ position: relative;
 height: 100%;
 overflow: auto;
 width: 40%;
-background-color: red
+background-color: red;
+margin-bottom: -.3em
 }
 
 .track-group img {display: block;
@@ -379,7 +381,8 @@ width: 20%;
 }
 
 .speaker-hero {
-cursor: pointer
+cursor: pointer;
+position: relative;
 }
 
 .speaker-hero:after {content: "+";
@@ -405,10 +408,12 @@ float: left;
 position: relative}
 
 #speakers .speaker-hero.small .speaker-details {
-width: 50%;}
+width: 100%;}
 
 .speaker-hero.wide {
 width: 40%;
+margin-bottom: -.3em
+
 }
 
 .row .speaker-group {width: 40%}
