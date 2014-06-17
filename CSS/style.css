@@ -187,9 +187,9 @@ float: left;
 margin: 0 4% 0 5%} 
 
 #who {
-width: 30%;
+width: 32%;
 float: left;
-margin: 0 5% 0 0 }
+margin: 0 3% 0 0 }
 
 #who ul {
 }
@@ -498,8 +498,113 @@ margin-bottom: .1em }
 /*pricing*/
 
 #pricing {
-padding: 2em 10%
+padding: 0
 }
+
+/*actual stuff*/
+
+body {
+font-family: museo; 
+font-weight: 200;
+color: #464646; 
+font-size: 16px;
+line-height: 1.2}
+
+/*h1, h2, h3, h4, h5 {
+margin: .5em 0 .3em 0;
+font-weight: bold; }*/
+
+#pricing h1 {
+font-size: 1.8em;
+font-weight: 300; 
+margin: .5em 0 .3em 0;}
+
+#pricing h2 {
+	font-size: 1.6em;
+font-weight: 300;
+margin: .5em 0 .3em 0;
+}
+
+#pricing h3 {
+	font-size: 1.1em;
+font-weight: 300;
+margin: .5em 0 .3em 0;
+}
+
+#pricing h4 {
+	font-size: 1.1em;
+font-weight: 300;
+margin: .5em 0 .3em 0;
+}
+
+#pricing h5 {
+	font-size: 1em;
+font-weight: 300;
+margin: .5em 0 .3em 0;
+}
+
+#pricing h6 {
+	font-size: 1em;
+font-weight: 300;
+margin: .5em 0 .3em 0;
+}
+
+#pricing table p {margin-bottom: .2em }
+
+#pricing  table li {
+margin-top: .1em;
+}
+
+
+#pricing {color: #fff}
+
+#pricing td:nth-child(1) {
+	background-color: rgb(0, 103, 141)
+}
+
+#pricing td:nth-child(2) {
+	background-color: rgb(0, 129, 163)
+}
+
+#pricing td:nth-child(3) {
+	background-color: rgb(0, 158, 218)
+}
+
+#pricing td:nth-child(4) {
+	background-color: rgb(0, 188, 238)
+}
+
+
+#pricing a:link.register-button {
+display: inline-block;
+-webkit-appearance: none;
+appearance: none;
+border: none;
+background-color: rgb(85, 200, 237);
+display: block;
+width: 100%;
+margin: .6em auto;
+color: #fff;
+font-family: museo;
+font-size: 1em;
+padding: .6em 0;
+-webkit-border-radius: 1em;
+-moz-border-radius: 1em;
+border-radius: .4em; 
+border: solid 1px rgba(0,0,0,.3);
+text-decoration: none;
+text-align: center; }
+
+#pricing a:visited.register-button  {
+color: #fff}
+
+#pricing a:hover.register-button, #pricing .register-button:active {
+background-color: rgb(0, 158, 218)}
+
+
+#pricing td {
+width: 22%;
+padding: 0 1%}
 
 #pricing>p:first-of-type, #pricing>ul:first-of-type {
 width: 45%;
@@ -508,78 +613,37 @@ margin-right: 4%;
 margin-bottom: 2em}
 
 
-#pricing table {
-width: 100%;
-margin: 2em auto;
-background-color: rgb(0, 158, 218);
-color: #fff; }
+ #promise {
+padding: 1em}
 
-#pricing table tr:first-child td, #pricing table tr td:first-child{
-background-color: rgb(0, 103, 141);
-color: rgb(255, 57, 0)
-}
-
-
-#pricing table tr {
-height: 2.6em
-}
-
-
-
-#pricing table td {
-border-bottom: solid rgba(255, 255, 255, .1) 1px;
-text-align: center; 
-vertical-align: middle;
-padding: .2em;
-width: 18.7%
-}
-
-#pricing table td:first-child {
-width: 25%;
-text-align: right;
-font-weight: 400; 
-padding-right: .6em}
-
-#pricing table .included {
-background-color: rgb(0, 158, 218);
-}
-
-#pricing table .not-included {
-background-color: rgb(85, 200, 237);
-}
-
-#pricing blockquote {
-width: 45%;
-float: left;
-margin-right: 5%;
-font-size: 3.4em}
-
-#pricing blockquote p {
-margin-top: 0;
-line-height: 1;
-margin-bottom: 0;
-text-align: right; }
-
-#pricing blockquote p:last-of-type {
-text-align: right; 
-margin-top: 0;
-line-height: 1}
-
-#pricing blockquote cite{
-font-size: .6em; }
-
-
-#pricing #promise {
+ #promise #promise-details {
 width: 49%;
 float: right;
 margin-right: 0;
 line-height: 1.1}
 
-#pricing #promise ul {
+#promise blockquote {
+width: 49%;
+float: left;
+margin-right: 0;
+line-height: 1.1;
+font-size: 3.2em;
+line-height: 1.2 }
+
+#promise-details ul {
 padding-left: .5em}
 
-#pricing #promise p {
+#promise-details p {
 margin-top: .5em}
+
+/*testimonials*/
+
+#testimonials {
+padding: 2em 10%;
+}
+
+.testimonial {width: 49%;
+float: left}
 
 /*venue*/
 
@@ -624,6 +688,10 @@ margin: 1em 0 }
 #venue section.venue-details li{
 line-height: 1.1;
 margin: .1em 0 0 .5em }
+
+/*footer*/
+
+footer {clear: both}
 
 /*lightbox*/
 
