@@ -88,7 +88,7 @@ background-color: black}
 .row {width: 100%;
 display: block;
 overflow: hidden;
-margin-bottom: -.3em}
+}
 
 .row > * {
 	display: inline-block;
@@ -313,6 +313,9 @@ width: 50%;
 #speakers {
 background-color: #000}
 
+#speakers .row{
+margin-bottom: -.3em}
+
 #speakers h2 {
 background-color: #000;
 color: rgb(255, 57, 0);
@@ -503,6 +506,25 @@ padding-left: 1.6em;
 margin-top: 1em;
 background-position: left, center;
 background-size: 1.4em;font-size: 1.3em}
+
+/*exclusives*/
+
+#exclusives {
+	width: 90%;
+padding: 1em 0;
+margin: 0 auto
+}
+
+#exclusives .bonus-event {
+width: 48%;
+float: left;
+margin-right: 2%
+
+}
+
+#exclusives .bonus-event:first-child {
+}
+
 
 /*schedule*/
 
