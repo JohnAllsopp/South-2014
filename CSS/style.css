@@ -697,22 +697,10 @@ margin-bottom: .1em }
 padding: 0
 }
 
-/*actual stuff*/
-
-
-
-/*h1, h2, h3, h4, h5 {
-margin: .5em 0 .3em 0;
-font-weight: bold; }*/
-
-#pricing h1 {
-font-size: 1.8em;
-font-weight: 500; 
-margin: .5em 0 .3em 0;}
 
 #pricing h2 {
 	font-size: 1.6em;
-font-weight: 300;
+font-weight: 500;
 margin: .5em 0 .3em 0;
 color:  #c2ff46; /*color4*/
 }
@@ -720,13 +708,13 @@ color:  #c2ff46; /*color4*/
 #pricing h3 {
 	font-size: 1.1em;
 font-weight: 500;
-margin: .5em 0 .3em 0;
+margin: 1em 0 .3em 0;
 }
 
 #pricing h4 {
 	font-size: 1.1em;
-font-weight: 300;
-margin: .5em 0 .3em 0;
+font-weight: 500;
+margin: 1em 0 .3em 0;
 }
 
 #pricing h5 {
@@ -753,7 +741,8 @@ margin-top: .1em;
 #pricing td:nth-child(1) {
 	background-color:  #fffefe; /*color3*/
 	color: #1f2c35;/*color1 #1f2c35*/
-
+	padding-right: 7%;
+	padding-left: 3%
 }
 
 #pricing td:nth-child(2) {
