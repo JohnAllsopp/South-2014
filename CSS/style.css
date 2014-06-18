@@ -166,7 +166,7 @@ width: 50%
 #event-hero #wd-logo h1 {
 float: left;
 font-size: 2vw;
-background-image: url('../images/arrowleft.svg');
+background-image: url('images/arrowleft.svg');
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 5.4em;
@@ -220,8 +220,8 @@ font-size: 1vw
 #event-usps h2{
 width: 90%;
 font-size: 2.4em;
-margin: .3em 0 0 5%;
-line-height: 1
+margin: .5em 0 0 5%;
+line-height: .8
 }
 
 #event-usps p{
@@ -407,7 +407,8 @@ background-color:  rgba(31, 44, 53, .8); /*color1*/
 padding: .5em 0;
 }
 
-
+#speakers .wide .speaker-details {
+padding-bottom: .7em}
 
  .speaker-details h4 {
 color: #c2ff46; /*color4*/
@@ -430,6 +431,10 @@ width: 20%;
 .speaker-hero {
 cursor: pointer;
 position: relative;
+}
+
+.speaker-hero img{
+/*outline: solid lime*/
 }
 
 .speaker-hero:after {content: "+";
@@ -459,7 +464,7 @@ width: 100%;}
 
 .speaker-hero.wide {
 width: 40%;
-margin-bottom: -.3em
+margin-bottom: -.2em
 
 }
 
@@ -774,7 +779,7 @@ border: none;
 background-color:  #c2ff46; /*color4*/
 display: block;
 width: 100%;
-margin: .6em 0;
+margin: 0;
 color: #fff;
 font-family: museo;
 font-size: 1em;
@@ -786,7 +791,7 @@ border: none 1px;
 text-decoration: none;
 text-align: center; 
 color: #1f2c35;/*color1 #1f2c35*/
-
+margin-top: 1em
 }
 
 
@@ -824,15 +829,12 @@ line-height: 1.1}
 width: 50%;
 float: left;
 margin: 0 5%;
-line-height: 1;
-font-size: 4em;
-line-height: 1.2;
-text-align: right; 
+font-size: 3.6em;
+text-align: right;
 }
 
 #promise blockquote p{
-line-height: 1;
-
+line-height: .95;
 }
 
 #promise blockquote cite {
@@ -841,7 +843,8 @@ display: block;
 text-align: right; }
 
 #promise-details ul {
-padding-left: .5em}
+padding-left: 0;
+font-size: .9em; }
 
 #promise-details p {
 margin-top: .5em}
@@ -869,7 +872,6 @@ margin-left: 10%}
 font-size: 1.4em;
 color: #c2ff46; /*color4*/
 width: 50%;
-
 margin-right: 4%;
 display: inline-block
 }
