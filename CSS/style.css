@@ -448,7 +448,7 @@ line-height: 16px;
 font-size: 18px;
 font-weight: 100;
 font-family: helvetica;
-color: white;
+color: #c2ff46;/*color4 #c2ff46*/
 opacity: .6; }
 
 .row > .speaker-hero .speaker-details {
@@ -946,7 +946,33 @@ color: #c2ff46; /*color4*/
 
 /*footer*/
 
-footer {clear: both}
+footer {clear: both;
+width: 100%;
+background-color: #4e6672; /*color2 #4e6672*/
+color: #fffefe;/*color3 #fffefe*/
+font-size: .8em; }
+
+footer a:link, footer a:visited {
+text-decoration: none;
+background-color: transparent;
+color: #c2ff46 /*color4 #c2ff46*/
+}
+
+footer p {
+	clear: both;
+width: 90%;
+margin: 1em auto;
+}
+
+footer .footer-details {
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 1em
+}
+
+footer h3 {
+font-size: 1.2em}
 
 /*lightbox*/
 
