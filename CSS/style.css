@@ -472,16 +472,18 @@ float: left
 .speaker-more {opacity: 0;
 /*display: none;
 */position: fixed;
-top: 5%;
+top: 10%;
 left: 5%;
 max-height: 90%;
 width: 86%;
 padding: 2%;
-background: #000;
 border: solid medium #fff;
 transition: opacity .3s;
 z-index: -1;
-color: #ffffff; }
+background-color: #1f2c35; /*color1 #1f2c35*/
+color: #fffefe; /*color3 #fffefe*/
+
+ }
 
 .speaker-close {
 position: absolute;
@@ -501,11 +503,13 @@ z-index: 11}
 	font-size: 1.6em;
 	font-style: normal; 
 	padding: 0;
-	position: static
+	position: static;
+	color: #fffefe; /*color3 #fffefe*/
+
 	}
 
 .speaker-more h4 {
-	color: rgb(255, 57, 0);
+	color: #c2ff46;/*color4 #c2ff46*/
 	font-size: 1.3em;
 	font-style: italic; 
 	padding: 0;
@@ -515,7 +519,6 @@ z-index: 11}
 
 .speaker-more .abstract, .speaker-more .bio {
 width: 44%;
-color: rgb(255, 180, 0);
 float: left;
 margin-right: 5%;
 max-height: 50%;
@@ -534,7 +537,7 @@ margin-bottom: .3em;
 font-size: 1em; }
 
 .speaker-more a:link, .speaker-more a:visited {
-color: rgb(255, 57, 0);
+	color: #c2ff46;/*color4 #c2ff46*/
 text-decoration: none;
 display: block;
 background-image: url('images/twitter.svg');
@@ -841,11 +844,35 @@ margin-top: .5em}
 #testimonials {
 padding: 2em 10%;
 background-color: #409e97;/*color5 #409e97*/
-overflow: hidden
+overflow: hidden;
+color: #fffefe /*color3*/
+
 }
 
-.testimonial {width: 49%;
-float: left}
+.testimonial {width: 45%;
+float: left;
+margin: 0 ;
+}
+
+.testimonial:first-child {
+margin-left: 10%}
+
+.testimonial blockquote {
+font-size: 1.4em;
+color: #c2ff46; /*color4*/
+width: 50%;
+float: left;
+margin-right: 4%;
+display: inline-block
+}
+
+.testimonial p {width: 30%;
+float: left;
+display: inline-block;
+text-transform: uppercase;
+font-family: 'museo sans';
+font-size: 1em; 
+font-weight: 200}
 
 /*venue*/
 
