@@ -390,7 +390,6 @@ width: 100%;
 bottom: 0;
 width: 100%;
 background-color:  rgba(31, 44, 53, .8); /*color1*/
-
 padding: .5em 0;
 }
 
@@ -541,16 +540,36 @@ background-size: 1.4em;font-size: 1.3em}
 /*exclusives*/
 
 #exclusives {
-	width: 100%;
-padding: 1em 0;
-margin: 0 auto;
+width: 100%;
+padding: 0;
+margin: 0;
 color: #fff;
-font-size: 1.3em;
-overflow: auto
+font-size: 1em;
+overflow: hidden;
+margin-bottom: -.3em
+}
+
+.bonus-details {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+}
+
+.bonus-details h2 {
+font-size: 3.6vw;
+font-style: italic;
+width: 66.67%;
+height: 36.8%;
+color: #c2ff46; /*color4*/
+background-color:  rgba(31, 44, 53, .8); /*color1*/
+padding: .5em 2%
 }
 
 #exclusives h3 {
-	font-size: 1.3em
+	font-size: 1.3em;
+	color:  #c2ff46; /*color4*/
+
 }
 
 #exclusives h4 {
@@ -562,17 +581,25 @@ width: 60%;
 float: left;
 min-height: 5em;
 position: relative;
-padding-top: 30%
  }
 
-#exclusives .bonus-event {
-background-image: url('../images/webb-evening.jpg');
-background-size: cover;
+#exclusives .bonus-event img{
+	width: 100%
 }
 
-#exclusives .bonus-event:nth-child(3) {
-background-image: url('../images/breakfast.jpg');
+#exclusives .bonus-event:nth-child(2) {
 width: 40%;
+}
+
+.bonus-more {
+padding: 1em 1em ;
+background-color:  rgba(31, 44, 53, .8); /*color1*/
+bottom: 0;
+position: absolute;
+margin-bottom: .3em;
+height: 12em
+
+
 }
 
 
@@ -585,8 +612,9 @@ background-color: #c2ff46 /*color4*/
 
 #schedule table {
 width: 70%;
-margin: 2em auto;
-color: #fff
+margin: 2em auto 0 auto;
+color: #fffefe /*color3*/
+
 }
 
 #schedule table th {
@@ -749,8 +777,13 @@ background-color: rgb(0, 158, 218)}
 
 
 #pricing td {
-width: 22%;
-padding: 0 1%}
+width: 20%;
+padding: 0}
+
+#pricing td > * {
+padding: 0 4%}
+
+#pricing td:nth-of-type(1) {width: 40%}
 
 #pricing>p:first-of-type, #pricing>ul:first-of-type {
 width: 45%;
@@ -795,44 +828,61 @@ float: left}
 
 #venue {
 position: relative;
-z-index: -1}
+}
 
 #venue h2 {
 
 }
 
 #venue img {
-position: absolute;
-top: 0;
-left: 0;
 width: 100%;
-z-index: 0}
+z-index: 0;
+}
 
 #venue section.venue-details {
-	position: relative;
-	z-index: 1;
-	width: 30%;
-	left: 60%;
-background-color: rgb(255, 57, 0);
-padding: 1em 5% 1em 1em;
+width: 60%;
 font-size: 1em;
+position: absolute;
+bottom: 0;
+background-color:  rgba(31, 44, 53, .8); /*color1*/
+color: #fffefe; /*color3*/
+height: 30%
+}
+
+#venue section.venue-details:nth-of-type(2) {
+left: 60%;
+width: 40%
 }
 
 #venue section.venue-details h2{
 font-size: 1.2em;
-text-transform: uppercase }
+text-transform: uppercase;
+margin-top: 1em;
+color: #c2ff46; /*color4*/
+}
 
 #venue section.venue-details h3{
 font-size: 1.1em;
-text-transform: uppercase }
+text-transform: uppercase;
+}
 
 #venue section.venue-details p{
 line-height: 1.2;
 margin: 1em 0 }
 
+#venue section.venue-details > *{
+	padding: 0 3em 0 1em
+}
+
 #venue section.venue-details li{
 line-height: 1.1;
 margin: .1em 0 0 .5em }
+
+#venue section.venue-details a:link, #venue section.venue-details a:visited {
+text-decoration: none;
+color: #c2ff46; /*color4*/
+
+ }
 
 /*footer*/
 
