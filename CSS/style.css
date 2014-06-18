@@ -214,16 +214,20 @@ float: left}
 
 #event-usps {
 background-color:  #409e97; /*color5*/
-color:
+font-size: 1vw
 }
 
-#event-usps p:first-of-type{
-margin-top: 1em
+#event-usps h2{
+width: 90%;
+font-size: 2.4em;
+margin: .3em 0 0 5%;
+line-height: 1
 }
 
 #event-usps p{
-width: 90%
-}
+width: 95%;
+margin: 0 0 0 5%;
+font-size: 1.3em; }
 
 .banner-text {
 color: #fff;
@@ -346,7 +350,10 @@ width: 50%;
 /*sepakers*/
 
 #speakers {
-background-color: #000}
+	/*margin: -2em;*/
+	margin: 0;
+	background: #000
+}
 
 #speakers .row{
 margin-bottom: -.3em}
@@ -851,7 +858,8 @@ color: #fffefe /*color3*/
 
 .testimonial {width: 45%;
 float: left;
-margin: 0 ;
+margin: 0;
+vertical-align: baseline
 }
 
 .testimonial:first-child {
@@ -861,13 +869,13 @@ margin-left: 10%}
 font-size: 1.4em;
 color: #c2ff46; /*color4*/
 width: 50%;
-float: left;
+
 margin-right: 4%;
 display: inline-block
 }
 
 .testimonial p {width: 30%;
-float: left;
+
 display: inline-block;
 text-transform: uppercase;
 font-family: 'museo sans';
