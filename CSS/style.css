@@ -405,6 +405,7 @@ bottom: 0;
 width: 100%;
 background-color:  rgba(31, 44, 53, .8); /*color1*/
 padding: .5em 0;
+text-transform: capitalize
 }
 
 #speakers .wide .speaker-details {
@@ -746,6 +747,10 @@ color: #fffefe;/*color3 #fffefe*/
 	padding-left: 3%
 }
 
+#pricing td:nth-child(1) h2 {
+	color: #1f2c35;/*color1 #1f2c35*/
+}
+
 #pricing td:nth-child(2) {
 	background-color: #1f2c35;/*color1 #1f2c35*/
 }
@@ -951,19 +956,22 @@ color: #c2ff46 /*color4 #c2ff46*/
 
 footer p {
 	clear: both;
-width: 90%;
+width: 95%;
 margin: 1em auto;
+padding-bottom: 1em
 }
 
 footer .footer-details {
 	width: 30%;
 	float: left;
 	margin-left: 3%;
-	margin-top: 1em
+	margin-top: 1em;
+margin-bottom: 1em
 }
 
 footer h3 {
-font-size: 1.2em}
+font-size: 1.2em;
+margin-bottom: .3em}
 
 /*lightbox*/
 
