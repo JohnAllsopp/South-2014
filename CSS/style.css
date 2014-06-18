@@ -58,6 +58,13 @@ font-family: "museo-slab", museo, serif;
 /*-webkit-transform: translate3d( 0, 0, 0)*/
 }
 
+body {
+font-family: museo; 
+font-weight: 200;
+color: #464646; 
+font-size: 16px;
+line-height: 1.2}
+
 header {position: fixed;
 width: 100%;
 top: 0;
@@ -677,12 +684,7 @@ padding: 0
 
 /*actual stuff*/
 
-body {
-font-family: museo; 
-font-weight: 200;
-color: #464646; 
-font-size: 16px;
-line-height: 1.2}
+
 
 /*h1, h2, h3, h4, h5 {
 margin: .5em 0 .3em 0;
@@ -697,6 +699,7 @@ margin: .5em 0 .3em 0;}
 	font-size: 1.6em;
 font-weight: 300;
 margin: .5em 0 .3em 0;
+color:  #c2ff46; /*color4*/
 }
 
 #pricing h3 {
@@ -733,19 +736,23 @@ margin-top: .1em;
 #pricing {color: #fff}
 
 #pricing td:nth-child(1) {
-	background-color: rgb(0, 103, 141)
+	background-color:  #fffefe; /*color3*/
+	color: #1f2c35;/*color1 #1f2c35*/
+
 }
 
 #pricing td:nth-child(2) {
-	background-color: rgb(0, 129, 163)
+	background-color: #1f2c35;/*color1 #1f2c35*/
 }
 
 #pricing td:nth-child(3) {
-	background-color: rgb(0, 158, 218)
+	background-color: #4e6672; /*color2 #4e6672*/
+
 }
 
 #pricing td:nth-child(4) {
-	background-color: rgb(0, 188, 238)
+	background-color: #409e97;/*color5 #409e97*/
+
 }
 
 
@@ -754,26 +761,28 @@ display: inline-block;
 -webkit-appearance: none;
 appearance: none;
 border: none;
-background-color: rgb(85, 200, 237);
+background-color:  #c2ff46; /*color4*/
 display: block;
 width: 100%;
-margin: .6em auto;
+margin: .6em 0;
 color: #fff;
 font-family: museo;
 font-size: 1em;
 padding: .6em 0;
 -webkit-border-radius: 1em;
 -moz-border-radius: 1em;
-border-radius: .4em; 
-border: solid 1px rgba(0,0,0,.3);
+border-radius: 0em; 
+border: none 1px;
 text-decoration: none;
-text-align: center; }
+text-align: center; 
+color: #1f2c35;/*color1 #1f2c35*/
 
-#pricing a:visited.register-button  {
-color: #fff}
+}
+
 
 #pricing a:hover.register-button, #pricing .register-button:active {
-background-color: rgb(0, 158, 218)}
+background-color:  #c2ff46; /*color4*/
+}
 
 
 #pricing td {
@@ -796,18 +805,30 @@ margin-bottom: 2em}
 padding: 1em}
 
  #promise #promise-details {
-width: 49%;
+width: 35%;
 float: right;
-margin-right: 0;
+margin-right: 5%;
 line-height: 1.1}
 
 #promise blockquote {
-width: 49%;
+width: 50%;
 float: left;
-margin-right: 0;
-line-height: 1.1;
-font-size: 3.2em;
-line-height: 1.2 }
+margin: 0 5%;
+line-height: 1;
+font-size: 4em;
+line-height: 1.2;
+text-align: right; 
+}
+
+#promise blockquote p{
+line-height: 1;
+
+}
+
+#promise blockquote cite {
+font-size: .6em; 
+display: block;
+text-align: right; }
 
 #promise-details ul {
 padding-left: .5em}
@@ -819,6 +840,8 @@ margin-top: .5em}
 
 #testimonials {
 padding: 2em 10%;
+background-color: #409e97;/*color5 #409e97*/
+overflow: hidden
 }
 
 .testimonial {width: 49%;
