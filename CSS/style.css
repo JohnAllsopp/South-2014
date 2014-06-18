@@ -230,7 +230,7 @@ margin: 0 0 0 5%;
 font-size: 1.3em; }
 
 .banner-text {
-color: #fff;
+color: #fffefe;/*color3 #fffefe*/
 position: absolute;
 top: 0 }
 
@@ -262,7 +262,7 @@ outline: solid lime 0px}
 
 .text-heavy {
 background-color: #4e6672; /*color2*/
-color: #fff;
+color: #fffefe;/*color3 #fffefe*/
 overflow: auto;
 padding: 2em 0;
 font-size: 1.07em}
@@ -316,7 +316,7 @@ margin-bottom: .2em}
 
 #tldr{
 background-color: #409e97; /*color5*/
-color: #fff;
+color: #fffefe;/*color3 #fffefe*/
 }
 
 #tldr{
@@ -489,7 +489,7 @@ left: 5%;
 max-height: 90%;
 width: 86%;
 padding: 2%;
-border: solid medium #fff;
+border: solid medium #fffefe; /*color3*/
 transition: opacity .3s;
 z-index: -1;
 background-color: #1f2c35; /*color1 #1f2c35*/
@@ -511,7 +511,6 @@ z-index: 11}
 
 .speaker-more h3 {
 	text-transform: uppercase;
-	color: #fff;
 	font-size: 1.6em;
 	font-style: normal; 
 	padding: 0;
@@ -565,7 +564,7 @@ background-size: 1.4em;font-size: 1.3em}
 width: 100%;
 padding: 0;
 margin: 0;
-color: #fff;
+color: #fffefe;/*color3 #fffefe*/
 font-size: 1em;
 overflow: hidden;
 margin-bottom: -.3em
@@ -736,7 +735,9 @@ margin-top: .1em;
 }
 
 
-#pricing {color: #fff}
+#pricing {
+color: #fffefe;/*color3 #fffefe*/
+}
 
 #pricing td:nth-child(1) {
 	background-color:  #fffefe; /*color3*/
@@ -769,7 +770,6 @@ background-color:  #c2ff46; /*color4*/
 display: block;
 width: 90%;
 margin: 0 auto;
-color: #fff;
 font-family: museo;
 font-size: 1em;
 padding: .6em 0;
