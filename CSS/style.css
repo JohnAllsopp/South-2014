@@ -59,7 +59,6 @@ font-family: "museo-slab", museo, serif;
 }
 
 body {
-font-family: museo; 
 font-weight: 200;
 color: #464646; 
 font-size: 16px;
@@ -160,7 +159,9 @@ color:  #1f2c35 /*color1*/
  }
 
 #event-hero #wd-logo {
-width: 50%
+width: 50%;
+color: #1f2c35;/*color1 #1f2c35*/
+
 }
 
 #event-hero #wd-logo h1 {
@@ -171,7 +172,6 @@ background-repeat: no-repeat;
 background-position: left center;
 background-size: 5.4em;
 padding: 4em 0 4em 4.9em;
-color: #000;
 margin: -1.2em 0 0 1em;
 width: 30%}
 
@@ -194,11 +194,11 @@ line-height: .8;
 	width: 45%;
 margin-right: 4%;
 float: right;
-font-style: italic;
-color: #000; }
+}
 
  #event-hero h2,  #event-hero p {
 font-size: 1.4vw;
+line-height: 1
  }
 
 #event-hero h2 {
@@ -536,6 +536,9 @@ margin-right: 5%;
 max-height: 50%;
 overflow: auto}
 
+.speaker-more .bio {
+font-style: italic; }
+
 .speaker-more .abstract li, .speaker-more .bio li {
 	line-height: 1.15;
 	padding-left: .6em;
@@ -707,7 +710,7 @@ color:  #c2ff46; /*color4*/
 
 #pricing h3 {
 	font-size: 1.1em;
-font-weight: 500;
+font-weight: 700;
 margin: 1em 0 .3em 0;
 }
 
@@ -748,7 +751,8 @@ color: #fffefe;/*color3 #fffefe*/
 }
 
 #pricing td:nth-child(1) h2 {
-	color: #1f2c35;/*color1 #1f2c35*/
+	color: #409e97; /*color5 #409e97*/
+
 }
 
 #pricing td:nth-child(2) {
@@ -775,7 +779,6 @@ background-color:  #c2ff46; /*color4*/
 display: block;
 width: 90%;
 margin: 0 auto;
-font-family: museo;
 font-size: 1em;
 padding: .6em 0;
 -webkit-border-radius: 1em;
@@ -813,7 +816,7 @@ margin-bottom: 2em}
 
 
  #promise {
-padding: 1em}
+padding: 2em 0}
 
  #promise #promise-details {
 width: 35%;
@@ -827,10 +830,15 @@ float: left;
 margin: 0 5%;
 font-size: 3.6em;
 text-align: right;
+color: #c2ff46; /*color4*/
 }
 
-#promise blockquote p{
-line-height: .95;
+#promise blockquote p {line-height: 1;
+}
+
+#promise blockquote p:last-child{
+color: #fffefe;
+
 }
 
 #promise blockquote cite {
@@ -841,6 +849,13 @@ text-align: right; }
 #promise-details ul {
 padding-left: 0;
 font-size: .9em; }
+
+#promise-details h2 {
+margin-top: 1em;
+font-style: normal; }
+
+#promise-details h2:first-of-type {
+margin-top: 0; }
 
 #promise-details p {
 margin-top: .5em}
@@ -867,17 +882,16 @@ margin-left: 10%}
 .testimonial blockquote {
 font-size: 1.4em;
 color: #c2ff46; /*color4*/
-width: 50%;
-margin-right: 4%;
+width: 55%;
+margin-right: 2%;
 display: inline-block
 }
 
 .testimonial p {width: 30%;
-
 display: inline-block;
 text-transform: uppercase;
-font-family: 'museo sans';
-font-size: 1em; 
+font-family: 'museo sans', museo, san-serif;
+font-size: .9em; 
 font-weight: 200}
 
 /*venue*/
@@ -944,9 +958,12 @@ color: #c2ff46; /*color4*/
 
 footer {clear: both;
 width: 100%;
-background-color: #4e6672; /*color2 #4e6672*/
+background-color: #1f2c35; /*color1 #1f2c35*/
 color: #fffefe;/*color3 #fffefe*/
-font-size: .8em; }
+font-size: .8em; 
+padding: 2em 0;
+}
+
 
 footer a:link, footer a:visited {
 text-decoration: none;
@@ -955,19 +972,24 @@ color: #c2ff46 /*color4 #c2ff46*/
 }
 
 footer p {
-	clear: both;
-width: 95%;
-margin: 1em auto;
+clear: both;
+width: 90%;
+margin: 2em auto;
 padding-bottom: 1em
 }
 
+
 footer .footer-details {
-	width: 30%;
-	float: left;
-	margin-left: 3%;
-	margin-top: 1em;
-margin-bottom: 1em
+width: 40%;
+float: left;
+margin: 0;
 }
+
+footer .footer-details:first-of-type {
+margin-left: 20%
+}
+
+
 
 footer h3 {
 font-size: 1.2em;
