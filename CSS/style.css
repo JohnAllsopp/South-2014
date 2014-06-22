@@ -50,8 +50,9 @@ right: 0;
 top: 0;
 width: 20%;
 text-align: center;
-background-color: #c2ff46 /*color4*/;
-padding: .4em 0}
+background-color: #c2ff46; /*color4*/;
+padding: .4em 0;
+font-weight: 700}
 
 header nav li:last-child a:link, header nav li:last-child a:visited {
 color: #1f2c35; /*color1*/
@@ -175,15 +176,15 @@ font-size: 1vw
 
 #event-usps h2{
 width: 90%;
-font-size: 2.4em;
+font-size: 2.3em;
 margin: .5em 0 0 5%;
-line-height: .8
+line-height: .9
 }
 
 #event-usps p{
 width: 95%;
 margin: 0 0 0 5%;
-font-size: 1.3em; }
+font-size: 1.25em; }
 
 .banner-text {
 color: #fffefe;/*color3 #fffefe*/
@@ -229,9 +230,9 @@ float: left;
 margin: 0 4% 0 5%} 
 
 #who {
-width: 32%;
+width: 35%;
 float: left;
-margin: 0 3% 0 0 }
+margin: 0 0 }
 
 #who ul {
 }
@@ -284,13 +285,24 @@ font-size: 1.3vw}
 
 .tldr-block {display: inline-block;
 width: 33%;
-margin-left: 0%}
+margin-left: 0%;
+}
+
+.tldr-block:nth-of-type(1) {
+text-align: left; }
+
+.tldr-block:nth-of-type(2) {
+text-align: center; }
+
+.tldr-block:nth-of-type(3) {
+text-align: center; }
 
 .tldr-block h2, .tldr-block h3 {display: inline-block;
 text-transform: uppercase;
-font-family: 'museo sans';
+font-family: 'museo-sans', museo, sans-serif;
 font-size: 1.2em; 
-font-weight: 200}
+font-weight: 300;
+text-align: left; }
 
 .tldr-block h2 {display: inline-block;
 font-size: 5em; 
@@ -547,13 +559,18 @@ padding: .5em 2%
 }
 
 #exclusives h3 {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	color:  #c2ff46; /*color4*/
 
 }
 
 #exclusives h4 {
-	font-size: 1.1em
+	font-size: .9em;
+margin-bottom: .5em
+}
+
+#exclusives p {
+	margin-bottom: .6em
 }
 
 #exclusives .bonus-event {
@@ -588,7 +605,8 @@ height: 12em
 #schedule {
 margin: 0 ;
 background-color: #c2ff46; /*color4*/
-padding-top: 1em
+padding-top: 3em;
+padding-bottom: 2em
 }
 
 #schedule table {
@@ -701,6 +719,10 @@ margin-top: .1em;
 
 #pricing {
 color: #fffefe;/*color3 #fffefe*/
+}
+
+#pricing tr:first-of-type td {
+	padding-top: 3em
 }
 
 #pricing td:nth-child(1) {
@@ -845,9 +867,9 @@ display: inline-block
 .testimonial p {width: 30%;
 display: inline-block;
 text-transform: uppercase;
-font-family: 'museo sans', museo, san-serif;
+font-family: 'museo-sans', museo, sans-serif;
 font-size: .9em; 
-font-weight: 200}
+font-weight: 300}
 
 /*venue*/
 
@@ -865,20 +887,28 @@ z-index: 0;
 }
 
 #venue section.venue-details {
-width: 60%;
+width: 100%;
 font-size: 1em;
 position: absolute;
 bottom: 0;
 background-color:  rgba(31, 44, 53, .8); /*color1*/
 color: #fffefe; /*color3*/
-height: 30%
+height: auto
 }
 
-#venue section.venue-details:nth-of-type(2) {
-left: 60%;
-width: 40%
+section.venue-details section:nth-of-type(1) {
+width: 55%;
+float: left
 }
 
+section.venue-details section:nth-of-type(2) {
+width: 30%;
+float: left;
+}
+
+section.venue-details p {
+padding-bottom: 1em
+}
 #venue section.venue-details h2{
 font-size: 1.2em;
 text-transform: uppercase;

@@ -11,6 +11,11 @@ var helpers = {
 			closeElements[i].addEventListener("click", helpers.hideSpeakerInfo, false)
 		};
 
+		var priceButtons = document.querySelectorAll(".price-details-button")
+		for (var i=0; i < priceButtons.length; i++) {
+			priceButtons[i].addEventListener("click", helpers.togglePriceDetails, false)
+		};
+
 		var lightBox = document.querySelector("#lightbox")		
 		lightBox.addEventListener('click', helpers.hideSpeakerInfo, false);
 		
@@ -21,6 +26,16 @@ var helpers = {
 	showSpeakerInfo: function(event){
 		var element = event.currentTarget;
 		var moreElement = element.querySelector(".speaker-more")
+		
+		var showingInfo = document.querySelector(".speaker-more.visible")
+		
+		if (showingInfo) {
+			showingInfo.classList.remove("visible")
+		}
+		
+		if (moreElement === showingInfo) {
+			return
+		}
 
 		var lightBox = document.querySelector("#lightbox")
 		lightBox.classList.add("visible")
@@ -45,6 +60,29 @@ var helpers = {
 		var lightBox = document.querySelector("#lightbox")
 		lightBox.classList.remove("visible")
 		
+	},
+	
+	togglePriceDetails: function(event){
+		
+		//hide any open detail box
+		
+		var openDetails = document.querySelector('.pricing-more.open')
+		if (openDetails) {
+			openDetails.classList.remove('open')
+		}
+		
+		//now get the associated details box and open that
+		
+		var newDetails = event.currentTarget.parentElement.nextElementSibling
+		
+		if (openDetails === newDetails) {
+			return
+		}
+		
+		if (newDetails){
+			newDetails.classList.add('open')
+		}
+	
 	}
 	
 }
